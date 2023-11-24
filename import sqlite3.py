@@ -11,11 +11,11 @@ def prediksi():
 
     # Menentukan prodi berdasarkan nilai tertinggi
     prodi = ""
-    if nilai_biologi > nilai_fisika and nilai_biologi > nilai_inggris:
+    if nilai_biologi >= nilai_fisika and nilai_biologi >= nilai_inggris:
         prodi = "Kedokteran"
-    elif nilai_fisika > nilai_biologi and nilai_fisika > nilai_inggris:
+    elif nilai_fisika >=nilai_biologi and nilai_fisika >= nilai_inggris:
         prodi = "Teknik"
-    elif nilai_inggris > nilai_biologi and nilai_inggris > nilai_fisika:
+    elif nilai_inggris >= nilai_biologi and nilai_inggris >= nilai_fisika:
         prodi = "Bahasa"
 
     # Menampilkan hasil prediksi
